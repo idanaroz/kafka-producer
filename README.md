@@ -1,4 +1,4 @@
-# producer
+# Kafka Producer
 
 This project main feaure is a Service has a POST method.
 The POST method gets a string and produces it to Kafka.
