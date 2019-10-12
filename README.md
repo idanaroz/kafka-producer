@@ -1,13 +1,13 @@
 # Kafka Producer
 
-This project main feaure is a Service has a POST method.
+This project main feaure is a Service the has a POST method.
 The POST method gets a string and produces it to Kafka.
 
 In order to produce it to the right kafka bootstrapServer it needs the relevant kafka bootstrapServer target. 
-
 To run this server kafka_bootstrapServer input is needed as can be seen in application.properties file. 
 
-In addition there is an easy option to create docker container by using the Dockerfile. TO achieve that:
+In addition there is an easy option to create docker container by using the Dockerfile. 
+TO achieve that:
 # 1. create a jar for the project.
 Let's same the name is: kafka-server-producer:1.1-SNAPSHOT.jar
 
