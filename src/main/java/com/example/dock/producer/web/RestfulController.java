@@ -18,7 +18,7 @@ class RestfulController {
     public String produceMessage(@RequestBody String content) {
         ProducerDemoWithCallback producer = new ProducerDemoWithCallback(bootstrapServer, content);
         producer.run();
-        return "producer-service container has been requested to produce message";
+        return "producer-service container has been requested to produce a message";
     }
 
 
